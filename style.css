@@ -1,0 +1,44 @@
+@charset"UTF-8";
+
+h1{
+    color:grey ;
+    text-align: center ;
+}
+
+p{
+    text-align: center ;
+}
+
+div{
+    text-align: center ;
+}
+
+hr{
+    width: 80px
+}
+
+a {
+    color: gray;
+    text-decoration: none;
+}
+
+a:hover {
+    color: inherit;
+}
+
+a:visited {
+    color: inherit;
+}
+
+.message-container {
+    display: none;
+    /* background-color: #f0f0f0; */
+    border: 1px solid #ccc;
+    /* padding: 10px; */
+    /* margin-top: 10px; */
+    /* font-family: Arial, sans-serif; */
+}
+
+.show-message:focus + .message-container {
+    display: block;
+}
