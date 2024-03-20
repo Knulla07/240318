@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+    <title>Escape0318</title>
+    <link rel= "stylesheet" href= "../style.css">
+</head>
+
+<body>
+    <div>
+        <img src = "../img/lockdoor.jpg" width="400" height="400">
+        <p>門被鎖上了</p>
+        <p>「不知道密碼是甚麼」</p>
+        <br>
+        <hr>
+        <br>
+        <form id="redirectForm" action="./opendoor-b.html">
+            <label for="password">密碼：</label>
+            <input type="text" id="password" name="password" required pattern="8625" title="密碼錯誤" autocomplete="off">
+            <button type="submit">輸入開門</button>
+            <!-- <div id="errorMessage" style="color: red; display: none;">密碼錯誤</div> -->
+        </form>
+        <br>
+        <a href = "./index-b.html">返回</a>
+
+        <p style= color:lightgray>請點擊文字進行下一步</p>
+    </div>
+</body>
+</html>
